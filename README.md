@@ -14,8 +14,14 @@ where the final corrected WASP-2 flux is plotted and a light curve is fitted usi
 The best fit light curve is determined and the model returns best fit parameters, used to determine the properties of WASP-2b
 
 
+Batman_parameters.py
+Created by LS and EN
+This script plots example curves for various batman parameters.
+
+
 dustextinction.py
-This file was created by GR and VT for the purpose of  
+This file was created by GR and VT for the purpose of spectral fitting.
+The spectral fitting code uses the Gordon, Cartledge, Clayton 2009 model for dust extinction in combination with the true colours of stars of different spectral types. The code compares these combinations to the colour values calculated in this study of WASP-2 in order to predict its spectral type and measure the extent of dust extinction on the colour measurements. 
 
 
 dustextinction.ipynb
