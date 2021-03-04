@@ -1,12 +1,15 @@
 # TGP-Exoplanets
+"""
 Senior Honours Telescope Group Project - March 2021
 
 This repository contains all of the code we have written to aid us with our Senior Honours Telescope Group Project at The University of Edinburgh. 
 
 The files have been written by Euan Newlands, Gemma Robertson, Lucie Scharre, Douglas Tait, Victoria Thompson and Gregory Wilcox.
+"""
 
+Below is a list of each file with a description of what they do.
 
-MultiParam.py
+Light_Curve_Fit.py
 This file was part of LS and EN's work on the light curve fitting process.
 Description: This code reads in time-scaled catalogs from WASP-2 (WASAP-2b transit) observation. 
 WASP-2 and 3 comparison field stars are used read in. Atmospheric effects are corrected for by using the field stars
@@ -17,6 +20,16 @@ The best fit light curve is determined and the model returns best fit parameters
 Batman_parameters.py
 Created by LS and EN
 This script plots example curves for various batman parameters.
+
+
+wasp2b_transit.zip
+Written by LS and EN.
+This is a directory containing catalogues of all IRAF identified sources above the background by 50sigma, throughout the transit. Should be in the same directory as Light_Curve_Fit.py when running Light_Curve_Fit.py.
+
+
+time.txt
+Written by LS and EN.
+This is a text file containing the time data in days since the mid-transit time, corresponding to each of the catalogues in wasp2b_transit.zip. Should be in the same directory as Light_Curve_Fit.py when running Light_Curve_Fit.py.
 
 
 dustextinction.py
